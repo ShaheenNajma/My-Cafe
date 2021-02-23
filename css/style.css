@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 18px;
+    overflow-x: hidden;
+    color: black;
+    font-family: 'Flamenco', cursive;
+}
+
+header{
+    background-image: url('../images/pic12.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.clearfix:after{
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0px;
+    clear: both;
+}
+
+.row{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.logo{
+    height: 120px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.main-nav{
+    float: right;
+    margin-top: 60px;
+}
+
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.main-nav li a{
+    padding: 5px 0;
+    color: rgb(37, 8, 105);
+    text-decoration: none;
+    font-style: oblique;
+    font-size: 90%;
+    font-weight: 100;
+}
+
+.main-nav li a :hover{
+    border-bottom : 2 px  solid #ffffff;
+}
+
+.main-content-header{
+    width: 1180px;
+    position: left;
+    top: 60%;
+    left: 45%;
+    
+}
+
+h1{
+    color: #fff;
+    font-size: 200%;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px, 30px;
+    font-weight: lighter;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2;
+}
+
+.btn-full{
+    background-color: transparent;
+    color: #bf55bf;
+    margin-right: 15px;
+    border: 1px, solid;
+}
+
+.btn-nav{
+    background-color: transparent;
+    color: #fff;
+    margin-right: 15px;
+    border: 1px, solid;
+} 
+
+.colorchange{
+    
+    animation: colorchangesunsetpoint 1s infinite 1s 1s forwards both;
+}
+
+@keyframes colorchangesunsetpoint{
+    0%{color: tomato;}
+    25%{color: #bf55bf;}
+    50%{color: white;}
+    100%{color: teal;}
+}
+
+/*//////////// RESPONSIVE QUERY /////////////*/
+
+@media only screen and (max-width: 1180px){
+    .main-content-header{
+        width: 100%;
+        padding: 0 2%;
+    }
+}
+
+
+@media only screen and (max-width: 998px){
+    h1{font-size: 180%;}
+}
+
+@media only screen and (max-width: 768px){
+    h1{font-size: 160%;}
+
+    .main-nav{display: none;}
+}
