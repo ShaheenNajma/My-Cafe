@@ -1,4 +1,4 @@
-JavaScript Variable Names
+avaScript Variable Names
 
 While naming your variables in JavaScript, keep the following rules in mind.
 
