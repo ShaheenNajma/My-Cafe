@@ -1,0 +1,464 @@
+JavaScript Variable Names
+
+While naming your variables in JavaScript, keep the following rules in mind.
+
+1.You should not use any of the JavaScript reserved keywords as a variable name For example, .
+break or boolean variable names are not valid.
+
+2.JavaScript variable names should not start with a numeral (0-9). 
+They must begin with a letter or an underscore character. For example,
+ 123test is an invalid variable name but _123test is a valid one.
+
+3.JavaScript variable names are case-sensitive. For example, Name and name are two different variables.
+
+DATATYPES:
+
+JavaScript allows you to work with three primitive data types −
+
+1.Numbers, eg. 123, 120.50 etc.
+
+2.Strings of text e.g. "This text string" etc.
+
+3.Boolean e.g. true or false.
+
+4.null
+
+5.undefined
+
+6.object
+
+////////////////////////////JavaScript Variable Scope///////////////////////////////////
+
+The scope of a variable is the region of your program in which it is defined. 
+JavaScript variables have only two scopes.
+
+Global Variables − A global variable has global scope which means it can be defined anywhere in your 
+JavaScript code.
+
+Local Variables − A local variable will be visible only within a function where it is defined. 
+Function parameters are always local to that function.
+
+
+
+
+
+
+
+
+
+///////////////////////////What is an Operator?//////////////////////////////////////////
+
+
+Let us take a simple expression 4 + 5 is equal to 9. Here 4 and 5 are called operands 
+and ‘+’ is called the operator. JavaScript supports the following types of operators.
+
+1.Arithmetic Operators
+2.Comparison Operators
+3.Logical (or Relational) Operators
+4.Assignment Operators
+5.Conditional (or ternary) Operators
+
+
+
+
+
+/////////////////////////////////Arithmetic Operators/////////////////////////////////
+
+JavaScript supports the following arithmetic operators −
+
+Assume variable A holds 10 and variable B holds 20, then −
+
+Sr.No.	Operator & Description
+1	
+         + (Addition)
+
+		Adds two operands
+
+		Ex: A + B will give 30
+
+2	
+		- (Subtraction)
+
+		Subtracts the second operand from the first
+
+		Ex: A - B will give -10
+
+3	
+		* (Multiplication)
+	
+		Multiply both operands
+
+		Ex: A * B will give 200
+
+4	
+		/ (Division)
+
+		Divide the numerator by the denominator
+
+		Ex: B / A will give 2
+
+5	
+		% (Modulus)
+
+		Outputs the remainder of an integer division
+
+		Ex: B % A will give 0
+
+6	
+		++ (Increment)
+
+		Increases an integer value by one
+
+		Ex: A++ will give 11
+
+7	
+		-- (Decrement)
+
+		Decreases an integer value by one
+
+		Ex: A-- will give 9
+
+
+////////////////////////////////////////Comparison Operators/////////////////////////////////////////
+
+Let us take a simple expression 4 + 5 is equal to 9. Here 4 and 5 are called operands
+ and ‘+’ is called the operator.
+JavaScript supports the following types of operators.
+
+Sr.No.	Operator & Description
+1	
+		= = (Equal)
+
+		Checks if the value of two operands are equal or not, if yes, then the condition becomes true.
+
+		Ex: (A == B) is not true.
+
+2	
+		!= (Not Equal)
+
+		Checks if the value of two operands are equal or not, if the values are not equal,
+		then the condition becomes true.
+
+		Ex: (A != B) is true.
+
+3	
+		> (Greater than)
+
+		Checks if the value of the left operand is greater than the value of the right operand,
+		if yes, then the condition becomes true.
+
+		Ex: (A > B) is not true.
+
+4	
+		< (Less than)
+
+		Checks if the value of the left operand is less than the value of the right operand, if yes,
+		then the condition becomes true.
+
+		Ex: (A < B) is true.
+
+5	
+		>= (Greater than or Equal to)
+
+		Checks if the value of the left operand is greater than or equal to the value of 
+		the right operand, if yes,
+		then the condition becomes true.
+
+		Ex: (A >= B) is not true.
+
+6	
+		<= (Less than or Equal to)
+
+		Checks if the value of the left operand is less than or equal to the value of the 
+		right operand, if yes,
+		then the condition becomes true.
+
+		Ex: (A <= B) is true.
+		
+///////////////////////////////////////Logical Operators//////////////////////////////////////////
+
+
+Sr.No.	Operator & Description
+1	
+		&& (Logical AND)
+
+		If both the operands are non-zero, then the condition becomes true.
+
+		Ex: (A && B) is true.
+
+2	
+		|| (Logical OR)
+
+		If any of the two operands are non-zero, then the condition becomes true.
+
+		Ex: (A || B) is true.
+
+///////////////////////////////////////////Assignment Operators/////////////////////////////////////
+
+JavaScript supports the following assignment operators −
+
+Sr.No.	Operator & Description
+1	
+		= (Simple Assignment )
+
+		Assigns values from the right side operand to the left side operand
+
+		Ex: C = A + B will assign the value of A + B into C
+
+2	
+		8i97u
+
+		It adds the right operand to the left operand and assigns the result to the left operand.
+
+		Ex: C += A is equivalent to C = C + A
+
+3	
+		−= (Subtract and Assignment)
+
+		It subtracts the right operand from the left operand and assigns the result to the left operand.
+
+		Ex: C -= A is equivalent to C = C - A
+
+4	
+		*= (Multiply and Assignment)
+
+		It multiplies the right operand with the left operand and assigns the result to the left operand.
+
+		Ex: C *= A is equivalent to C = C * A
+
+5	
+		/= (Divide and Assignment)
+
+		It divides the left operand with the right operand and assigns the result to the left operand.
+
+		Ex: C /= A is equivalent to C = C / A
+
+6	
+		%= (Modules and Assignment)
+
+		It takes modulus using two operands and assigns the result to the left operand.
+
+		Ex: C %= A is equivalent to C = C % A
+
+/////////////////////////////////////////Conditional (or ternary) Operators/////////////////////
+
+Miscellaneous Operator
+We will discuss two operators here that are quite 
+useful in JavaScript: the conditional operator (? :) and the typeof operator.
+
+Conditional Operator (? :)
+The conditional operator first evaluates an expression for a true or false value 
+and then executes one of the two given statements depending upon the result of the evaluation.
+
+Sr.No.	Operator and Description
+1	
+		? : (Conditional )
+
+		If Condition is true? Then value X : Otherwise value Y
+
+
+
+
+
+
+///////////////////////////////////////////The for Loop/////////////////////////////////////////////
+
+
+Syntax
+The syntax of for loop is JavaScript is as follows −
+
+for (initialization; test condition; iteration statement) {
+   Statement(s) to be executed if test condition is true
+}
+
+ example:
+ 
+			for(count = 0; count < 10; count++) {
+               document.write("Current Count : " + count );
+               document.write("<br />");
+            }   
+
+
+
+
+
+
+
+///////////////////////////////////////////The while Loop/////////////////////////////////////////////
+
+Syntax
+The syntax of while loop in JavaScript is as follows −
+
+while (expression) {
+   Statement(s) to be executed if expression is true
+}
+		example:
+			while (count < 10) {
+               document.write("Current Count : " + count + "<br />");
+               count++;
+            }
+
+
+///////////////////////////////////////////The do...while Loop/////////////////////////////////////////////
+
+Syntax
+The syntax for do-while loop in JavaScript is as follows −
+
+		do {
+		Statement(s) to be executed;
+		} while (expression);
+
+			example:
+			do {
+               document.write("Current Count : " + count + "<br />");
+               count++;
+            }
+            while (count < 5);
+
+
+/////////////////////////////////////////Function/////////////////////////////////////////////////////////
+
+Function Definition
+Before we use a function, we need to define it. The most common way to define a function in JavaScript 
+is by using the function keyword, followed by a unique function name, a list of parameters
+ (that might be empty), and a statement block surrounded by curly braces.
+
+ function functionname(parameter-list) {
+         statements
+      }
+	  
+	  Example:
+	    function sayHello() {
+         alert("Hello there");
+      }
+
+
+////////////////////////////////////////////////////DOM////////////////////////////////////
+
+What is the DOM?
+The DOM is a W3C (World Wide Web Consortium) standard.
+
+The DOM defines a standard for accessing documents:
+
+"The W3C Document Object Model (DOM) is a platform and language-neutral interface that allows programs and scripts to dynamically access and update the content, structure, and style of a document."
+
+The W3C DOM standard is separated into 3 different parts:
+
+Core DOM - standard model for all document types
+XML DOM - standard model for XML documents
+HTML DOM - standard model for HTML documents
+
+/////////////////////////////////////////////HTML DOM///////////////////////////////////////////
+
+What is the HTML DOM?
+The HTML DOM is a standard object model and programming interface for HTML. It defines:
+
+The HTML elements as objects
+The properties of all HTML elements
+The methods to access all HTML elements
+The events for all HTML elements
+In other words: The HTML DOM is a standard for how to get, change, add, or delete HTML elements.
+
+
+
+Example
+The following example changes the content (the innerHTML) of the <p> element with id="demo":
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = "Hello World!";
+</script>
+
+</body>
+</html>
+In the example above, getElementById is a method, while innerHTML is a property.
+
+
+//////////////////////////////////Using Events/////////////////////////////////////////////////
+
+Using Events
+The HTML DOM allows you to execute code when an event occurs.
+
+Events are generated by the browser when "things happen" to HTML elements:
+
+1.An element is clicked on
+2.The page has loaded
+3.Input fields are changed
+
+EXAMPLE:
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 id="id1">My Heading 1</h1>
+
+<button type="button"
+onclick="document.getElementById('id1').style.color = 'red'">
+Click Me!</button>
+
+</body>
+</html>
+////////////////////////////////////////Date()///////////////////////////////////////////////////////////
+
+Javascript Date() method returns today's date and time
+
+
+////////////////////////////////////////getDay()/////////////////////////////////////////////////////////
+
+Javascript date getDay() method returns the day of the week for the specified date according to local time.
+ The value returned by getDay() is an integer corresponding to the day of the week: 0 for Sunday,
+ 1 for Monday, 2 for Tuesday, and so on.
+ 
+ ///////////////////////////////////////getFullYear()////////////////////////////////////////////////////
+ 
+ Javascript date getFullYear() method returns the year of the specified date according to local time. 
+ The value returned by getFullYear() is an absolute number. For dates between the years 1000 and 9999, 
+ getFullYear() returns a four-digit number, for example, 2008
+ 
+ Syntax
+Its syntax is as follows −
+
+Date.getFullYear()
+///////////////////////////////////String Methods///////////////////////
+String Length
+indexOf()
+lastIndexOf()
+search()
+ slice(){takes specific part out from the string starting index and ending index of part should be provided}
+replace()
+toUpperCase()
+toLowerCase()
+The charCodeAt() method returns the unicode of the character at a specified index in a string:
+///////////////////////////////////////Arrow Function/////////////////////////////////////////////////////////
+
+// Arrow Function:
+hello = () => {
+  document.getElementById("demo").innerHTML += this;
+}
+
+/////////////////////////////////////////////////////
+
+TypeScript Version History
+
+Version	Released Date
+
+TypeScript 0.8	October 2012
+TypeScript 0.9	June 2013
+TypeScript 1.0	October 2014
+TypeScript 2.0	September 2016
+TypeScript 3.0	July 2018
+TypeScript 4.0 - latest release	August 2020
+
+*TypeScript was developed under Anders Hejlsberg, who also led the creation of the C# language. TypeScript was first released in October 2012.
+
+*TypeScript extends JavaScript by adding data types, classes, and other object-oriented features with type-checking. It is a typed superset of JavaScript that compiles to plain JavaScript.
+
+*TypeScript code is written in a file with .ts extension and then compiled into JavaScript using the TypeScript compiler. 
+
+ *A TypeScript compiler needs to be installed on your platform. Once installed, the command tsc <filename>.ts compiles the TypeScript code into a plain JavaScript file.
+
+
+
